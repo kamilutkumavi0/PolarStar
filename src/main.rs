@@ -1,3 +1,4 @@
+use PolarStar::toolset;
 fn main() {
-    println!("Hello, world!");
+    let mut space = toolset::Space{area_vec: Vec::new(), line_vec: Vec::new()};
 }
